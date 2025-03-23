@@ -1,0 +1,260 @@
+:root
+{
+	--body: #404258;
+	--box: #a9a7b8;
+	--title-bar: #2c294a;
+	--welcome-board: #e0e0e0;
+	--welcome-text: #222222;
+	--button-text: #ffffff;
+	--github: #222222;
+	--discord: #5865F2;
+	--codeforces: #4A55A2;
+	--chess: #176B87;
+	--projects: #526D82;
+	--border-color: #736f97;
+	--footer-text: #bebebe;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	top: 0;
+	overflow: auto;
+    background-color: var(--body);
+	font-family: "JetBrains Mono", monospace;
+}
+
+.container
+{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.footer
+{
+	font-size: 16px;
+	color: var(--footer-text);
+	align-self: center;
+	user-select: none;
+}
+
+.body-content
+{
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.box
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	background-color: var(--box);
+	user-select: none;
+	align-items: center;
+	align-self: center;
+}
+
+#nothing
+{
+	display: none;
+	margin: 0 auto;
+	text-align: center;
+	color: var(--footer-text);
+}
+
+#nothing-image
+{
+	width: 90%;
+	height: 90%;
+}
+
+.box-avatar
+{
+	width: 90%;
+	height: 450px;
+	padding-bottom: 5%;
+}
+
+.box-contact
+{
+	width: 90%;
+	height: 450px;
+}
+
+.box-welcome
+{
+	width: 90%;
+	height: max-content;
+	padding-bottom: 5%;
+}
+
+.welcome-content
+{
+	width: 90%;
+	height: max-content;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: var(--welcome-board);
+	color: var(--welcome-text);
+}
+
+.welcome-hello
+{
+	font-size: 24px;
+}
+
+.welcome-image
+{
+	width: 24px;
+	height: 24px;
+}
+
+.avatar-content
+{
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	object-position: top;
+	filter: brightness(0.85);
+	pointer-events: none;
+	border-style: groove;
+	border-color: var(--border-color);
+}
+
+.button-holder
+{
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.button
+{
+	width: 200px;
+	height: 50px;
+	padding-left: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.button:hover
+{
+	transform: scale(1.05);
+}
+
+.button-icon
+{
+	width: 30px;
+	height: 30px;
+}
+
+.button-name
+{
+	width: 120px;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 18px;
+	color: var(--button-text);
+	text-transform: uppercase;
+}
+
+.github
+{
+	background-color: var(--github);
+}
+
+.discord
+{
+	background-color: var(--discord);
+}
+
+.codeforces
+{
+	background-color: var(--codeforces);
+}
+
+.chess
+{
+	background-color: var(--chess);
+}
+
+.projects
+{
+	background-color: var(--projects);
+}
+
+.title-bar
+{
+	position: relative;
+	top: 5px;
+	width: 100%;
+	height: 25px;
+	display: flex;
+	flex-direction: row;
+	background-color: var(--title-bar);
+	color: var(--box);
+}
+
+.title
+{
+	position: relative;
+	left: 5px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.title-name
+{
+	font-size: 18px;
+}
+
+.title-icon
+{
+	width: 20px;
+	height: 20px;
+	pointer-events: none;
+}
+
+.bar-icon
+{
+	position: absolute;
+	right: 5px;
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
+
+.minimize,
+.close
+{
+	position: relative;
+	bottom: 0px;
+	cursor: pointer;
+}
+
+.restore
+{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}

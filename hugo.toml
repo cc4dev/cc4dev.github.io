@@ -1,0 +1,34 @@
+baseURL = "https://cc4dev.github.io"
+languageCode = "en-us"
+title = "cc4dev"
+theme = "chloe"
+enableEmoji = true
+enableInlineShortcodes = true
+
+[params]
+    math = true
+    noindex = false
+
+[markup.goldmark.renderer]
+    unsafe = true
+    
+[privacy]
+    [privacy.x]
+        disabled = false
+        enableDNT = true
+        simple = true
+
+    [privacy.instagram]
+        disabled = false
+        simple = true
+
+    [privacy.youtube]
+        disabled = false
+        privacyEnhanced = true
+
+[services]
+    [services.instagram]
+        disableInlineCSS = true
+
+    [services.x]
+        disableInlineCSS = true

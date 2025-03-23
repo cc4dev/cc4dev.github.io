@@ -1,0 +1,101 @@
+@font-face
+{
+    font-family: "Aller";
+    src: url("./assets/Aller_Regular.ttf");
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	top: 0;
+	overflow: auto;
+    background-color: #677096;
+	font-family: "Aller", monospace;
+    color: #ffffff;
+}
+
+#container
+{
+    padding: 25px;
+}
+
+#article
+{
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#avatar
+{
+    width: 50vw;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#box
+{
+    width: 90vw;
+    height: max-content;
+    background-color: #A6B1E1;
+    border-radius: 15px;
+}
+
+#content
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#header
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#line
+{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+#description
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+#about
+{
+    position: relative;
+    font-size: 16px;
+}
+
+#list
+{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
+#contact
+{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}

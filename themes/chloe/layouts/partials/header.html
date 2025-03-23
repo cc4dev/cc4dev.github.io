@@ -1,0 +1,13 @@
+<nav class="page-nav main-nav">
+    <ul>
+        <h1 class="page-logo">
+            <a href="{{ .Site.BaseURL }}" class="page-logo-inner">{{ .Site.Title }}</a>
+        </h1>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="main-nav-list">
+            <a class="main-nav-item{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) (eq ($currentPage.Permalink) (.URL | absLangURL)) }} active{{end}}" href="{{ .URL | absLangURL }}" title="{{ .Title }}"> {{ .Name }} </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>

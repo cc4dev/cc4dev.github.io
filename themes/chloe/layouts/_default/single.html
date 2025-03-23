@@ -1,0 +1,11 @@
+{{ define "main" }}
+    <header class="content-header">
+        <h1> {{ .Title | markdownify }} </h1>
+    </header>
+    {{ if .Params.toc }}
+    {{ end }}
+    <div class="content-body">
+        {{ .Content }}
+    </div>
+    <footer class="content-footer"> </footer>
+{{ end }}

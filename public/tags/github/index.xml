@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on cc4dev</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on cc4dev</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub Wrapped 2024</title>
+      <link>http://localhost:1313/note/github-wrapped-2024/</link>
+      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/note/github-wrapped-2024/</guid>
+      <description>&lt;h2 id=&#34;my-github-wrapped-2024&#34;&gt;My GitHub Wrapped 2024&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://git-wrapped.com/profiles/cc4dev&#34;&gt;&lt;img src=&#34;http://localhost:1313/media/git-wrapped-cc4dev-2024.png&#34; alt=&#34;GitHub Wrapped 2024&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;how-i-feel&#34;&gt;How I feel&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This year GitHub Warpped looks more minimal than last year&amp;rsquo;s website. I like the new design.&lt;/li&gt;&#xA;&lt;li&gt;The results are not too bad tho. I&amp;rsquo;m happy with my progress this year.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>GitHub Unwrapped 2023</title>
+      <link>http://localhost:1313/note/github-unwrapped-2023/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/note/github-unwrapped-2023/</guid>
+      <description>&lt;p&gt;Created on &lt;a href=&#34;https://githubunwrapped.com/&#34;&gt;GitHub Unwrapped&lt;/a&gt;, you can find anything related there.&lt;/p&gt;&#xA;&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;&#xA;&lt;video controls&gt;&#xD;&#xA;    &lt;source src=&#34;https://raw.githubusercontent.com/cc4dev/cc4dev.github.io/main/themes/chloe/static/media/2023-unwrapped-cc4dev.mp4&#34;&gt;&#xD;&#xA;&lt;/video&gt;&#xA;&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;&#xA;&lt;h3 id=&#34;top-language&#34;&gt;Top language:&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;C++&lt;/li&gt;&#xA;&lt;li&gt;Javascript&lt;/li&gt;&#xA;&lt;li&gt;Python&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;issues&#34;&gt;Issues:&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Opened: 1.&lt;/li&gt;&#xA;&lt;li&gt;Closed: 1.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;others&#34;&gt;Others&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Contributions: 463.&lt;/li&gt;&#xA;&lt;li&gt;Most productive day: Thursday.&lt;/li&gt;&#xA;&lt;li&gt;Most productive hour: 1pm.&lt;/li&gt;&#xA;&lt;li&gt;Pull requests merged: 7.&lt;/li&gt;&#xA;&lt;li&gt;Repository Stared: 111.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Many happened this year: my coding skills improved, I have remade some basic front-end websites, etc..&#xA;Kind of a successful year for me I guess.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Anyways, Happy New Year 2024!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

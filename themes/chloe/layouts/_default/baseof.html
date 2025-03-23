@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="{{- site.Language.Lang -}}">
+    <head>
+        {{- partial "head.html" . -}}
+    </head>
+
+    <body>
+        <div class="page">
+            <header class="page-header">
+                {{- partial "header.html" . -}}
+            </header>
+
+            <section class="page-body">
+                {{- block "main" . }}{{- end }}
+            </section>
+
+            <footer class="page-footer">
+                {{- partial "footer.html" . -}}
+            </footer>
+        </div>
+
+        <script src="/js/index.js"> </script>
+    </body>
+</html>

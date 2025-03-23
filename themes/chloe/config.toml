@@ -1,0 +1,47 @@
+# Configuration
+defaultContentLanguage = "en"
+sectionPagesMenu = "main"
+
+[params.About]
+title = "cc4dev"
+author = "cc4dev"
+description = "hi."
+source = "https://github.com/cc4dev"
+baseURL = "https://cc4dev.github.io"
+imageURL = "/assets/preview.png"
+
+[params.Theme]
+themeColor = "#000000"
+palette = "mocha"
+
+# Header Menu
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about/"
+        weight = 10
+
+    [[menu.main]]
+        identifier = "note"
+        name = "note"
+        url = "/note/"
+        weight = 20
+
+    [[menu.main]]
+        identifier = "lab"
+        name = "lab"
+        url = "/lab/"
+        weight = 30
+
+    [[menu.main]]
+        identifier = "contact"
+        name = "contact"
+        url = "/contact/"
+        weight = 40
+
+    [[menu.main]]
+        identifier = "config"
+        name = "config"
+        url = "/config/"
+        weight = 50

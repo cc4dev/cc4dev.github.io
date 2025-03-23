@@ -1,0 +1,111 @@
+@font-face
+{
+    font-family: "Aller";
+    src: url("./assets/Aller_Regular.ttf");
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+	top: 0;
+	overflow: auto;
+    background-color: #677096;
+	font-family: "Aller", monospace;
+    color: #ffffff;
+}
+
+#container
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#article
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#avatar
+{
+    width: 275px;
+    height: 400px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#box
+{
+    width: 450px;
+    height: 350px;
+    background-color: #A6B1E1;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#content
+{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#header
+{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#line
+{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+#description
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    font-size: 20px;
+}
+
+#about
+{
+    position: relative;
+    font-size: 20px;
+}
+
+#list
+{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+}
+
+#contact
+{
+    position: relative;
+    bottom: -25px;
+    width: 50px;
+    height: 50px;
+    transition: transform 0.5s;
+}
+
+#contact:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+}
