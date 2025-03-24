@@ -20,7 +20,8 @@ title = "Config"
 | Programming language icons | [xandemon.github.io/developer-icons](https://xandemon.github.io/developer-icons). |
 | Lofi Type Beat | [I Need a Girl by Lee](https://www.youtube.com/watch?v=xVf4Zk8CBj0) (Youtube). |
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/). |
-| [cc4dev](/assets/cc4dev-webring.png) & [NCS](/assets/ncs.gif)  88x31 GIFs | I made them :D |
+| Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329). | 
+| [NCS](/assets/ncs.gif) 88x31 GIF | I made it :D |
 + I couldn't find the source of **Gura.gif**, sorry...
 
 ## Page
