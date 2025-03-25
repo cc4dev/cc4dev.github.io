@@ -1,0 +1,23 @@
+.page-footer
+{
+    width: 100%;
+    color: var(--off-fg);
+}
+
+.page-footer-content
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.page-footer-content img
+{
+    width: 105.6px;
+    height: 37.2px;
+}
+
+#page-footer-content-secret
+{
+    cursor: default;
+}
