@@ -1,0 +1,54 @@
+<h2> Enter your location: </h2>
+
+</br>
+
+<div id="weather-container">
+    <textarea id="weather-input" placeholder="Your city/country..." autofocus></textarea>
+    <button id="weather-submit"> Submit </button>
+</div>
+
+<div id="weather-error"> </div>
+
+<h2> Location(s) searched: </h2>
+
+<div id="weather-result"> </div>
+
+<style>
+    #weather-container
+    {
+        display: flex;
+        gap: 10px;
+    }
+
+    #weather-input
+    {
+        width: 200px;
+        padding: 7.5px 0px 0px 7.5px;
+        background-color: transparent;
+        border-radius: 5px;
+        color: var(--fg);
+    }
+
+    #weather-input::placeholder
+    {
+        color: var(--fg);
+    }
+
+    #weather-submit
+    {
+        max-width: max-content;
+        padding: 0px 10px 0px 10px;
+        display: inline-block;
+        background-color: var(--muted);
+        border: none;
+        border-radius: 7.5px;
+        color: var(--fg);
+    }
+
+    #weather-submit:hover
+    {
+        cursor: pointer;
+    }
+</style>
+
+<script src="/js/weather-forecast.js"> </script>

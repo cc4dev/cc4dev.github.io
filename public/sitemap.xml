@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-01-31T00:00:00+00:00</lastmod>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lab/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/lab/weather-forecast/</loc>
+    <lastmod>2025-03-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/example/color-scheme/</loc>
     <lastmod>2025-01-31T00:00:00+00:00</lastmod>
@@ -43,9 +49,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/life/</loc>
     <lastmod>2024-11-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/lab/</loc>
-    <lastmod>2024-07-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/lab/tic-tac-toe/</loc>
     <lastmod>2024-07-29T00:00:00+00:00</lastmod>

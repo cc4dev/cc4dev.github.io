@@ -22,7 +22,7 @@ title = "Config"
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/). |
 | Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329). | 
 | [NCS](/assets/ncs.gif) 88x31 GIF | I made it :D |
-+ I couldn't find the source of **Gura.gif**, sorry...
++ I couldn't find the source of **[gura.gif](/assets/gura.gif)** & **[secret.png](/assets/secret.png)**, sorry...
 
 ## Page
 + Hosting on [GitHub](https://pages.github.com).
