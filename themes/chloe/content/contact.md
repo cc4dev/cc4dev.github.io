@@ -8,7 +8,7 @@ title = "Contact"
 
 ## Primary
 + GitHub: [cc4dev](https://github.com/cc4dev)
-+ Email: [caodoc@proton.me](mailto:caodoc@proton.me)
++ Email: [cc4dev@proton.me](mailto:cc4dev@proton.me)
 
 ## Coding Platforms
 + [LeetCode](https://leetcode.com/u/ccaoishere/)
