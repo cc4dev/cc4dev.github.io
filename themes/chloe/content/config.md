@@ -13,7 +13,7 @@ title = "Config"
 ## Assets
 | Name | Source |
 |----------------------------|--------|
-| GitHub's avatar            | [popman3580](https://www.pixiv.net/en/users/4403712) (pixiv).|
+| GitHub's avatar            | [情理叶](https://www.pixiv.net/en/users/62703299) (pixiv).|
 | Anime girl spinning pen    | [asahi](https://imgur.com/asahi-wKjtZg3) (imgur). |
 | Animated background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
 | 404NotFound.png            | [vtuberlogos.alfon.dev](https://vtuberlogos.alfon.dev). |
