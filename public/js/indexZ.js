@@ -4,7 +4,7 @@ const indexZ = document.getElementById("indexZ-content");
 
 if (!localStorage.getItem("latestCommitDate"))
 {
-    localStorage.setItem("latestCommitDate", "2024-12-22T02:37:09Z");
+    localStorage.setItem("latestCommitDate", "2023-06-01T01:01:01Z");
 }
 
 if (!localStorage.getItem("latestCommitMessage"))
@@ -24,13 +24,14 @@ function convertISO(DATE)
     return `${day} ${month} ${year}`;
 }
 
-const commitDate = convertISO(localStorage.getItem("latestCommitDate"));
 const commitMessage = localStorage.getItem("latestCommitMessage");
+const commitSince = localStorage.getItem("latestCommitDate");
+const commitDate = convertISO(commitSince);
 
 async function getCommit()
 {
-    const URL = `https://api.github.com/repos/${AUTHOR}/${REPOSITORY}/commits`;
-
+    const URL = `https://api.github.com/repos/${AUTHOR}/${REPOSITORY}/commits?per_page=1`;
+    console.log(URL);
     try
     {
         const response = await fetch(URL);

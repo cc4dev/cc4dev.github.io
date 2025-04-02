@@ -11,6 +11,7 @@ title = "Config"
 {{< settings >}}
 
 ## Assets
+> Please note that I converted assets to webp format & compressed for the best performance possible, but you can find the original assets in the <mark>assets</mark> folder.
 | Name | Source |
 |----------------------------|--------|
 | GitHub's avatar            | [情理叶](https://www.pixiv.net/en/users/62703299) (pixiv).|
@@ -22,7 +23,7 @@ title = "Config"
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/). |
 | Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329). | 
 | [NCS](/assets/ncs.gif) 88x31 GIF | I made it :D |
-+ I couldn't find the source of **[gura.gif](/assets/gura.gif)** & **[secret.png](/assets/secret.png)**, sorry...
++ I couldn't find the source of **[cat-chilling.gif](/assets/cat-chilling.gif)** & **[secret.png](/assets/secret.png)**, sorry...
 
 ## Page
 + Hosting on [GitHub](https://pages.github.com).
