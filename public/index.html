@@ -43,72 +43,71 @@
 <link rel="apple-touch-icon" sizes="192x192" href="https://cc4dev.github.io/favicon/favicon-192px.png">
 
 <link rel="stylesheet" href="https://cc4dev.github.io/css/palettes/mocha.css">
-<link rel="stylesheet" href="https://cc4dev.github.io/css/chloe.css"></head>
+<link rel="stylesheet" href="https://cc4dev.github.io/css/sylvie.css"></head>
 
     <body>
-        <div class="page">
-            <header class="page-header"><nav class="page-nav main-nav">
-    <ul>
-        <h1 class="page-logo">
-            <a href="https://cc4dev.github.io/" class="page-logo-inner">cc4dev</a>
-        </h1>
-        
-        
-        <li class="main-nav-list">
-            <a class="main-nav-item" href="https://cc4dev.github.io/about/" title=""> about </a>
-        </li>
-        
-        <li class="main-nav-list">
-            <a class="main-nav-item" href="https://cc4dev.github.io/note/" title=""> note </a>
-        </li>
-        
-        <li class="main-nav-list">
-            <a class="main-nav-item" href="https://cc4dev.github.io/lab/" title=""> lab </a>
-        </li>
-        
-        <li class="main-nav-list">
-            <a class="main-nav-item" href="https://cc4dev.github.io/contact/" title=""> contact </a>
-        </li>
-        
-        <li class="main-nav-list">
-            <a class="main-nav-item" href="https://cc4dev.github.io/config/" title=""> config </a>
-        </li>
-        
-    </ul>
-</nav></header>
-
-            <section class="page-body">
-    <h1 id="welcome">Welcome</h1>
-<p>
-    <text id="welcomeTextBody" style="color:var(--highlight);"> </text> 👋
-</p>
-
-
-<div style="width: 100%" align="center">
-    <img src="/assets/cat-chilling.webp" width="75%" height="auto">
+        <main>
+            <div class="page">
+                <div class="page-header"><div class="page-header-top">
+    <text class="page-header-favicon">
+        <img src="/favicon/favicon-32px.png">
+    </text>
+    
+    <text class="page-header-title">cc4dev</text>
+    
+    <div class="page-header-x">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
+    </div>
 </div>
+
+<div class="page-header-container">
+    
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/" title=""> home </a>
+    </text>
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/about/" title=""> about </a>
+    </text>
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/note/" title=""> note </a>
+    </text>
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/lab/" title=""> lab </a>
+    </text>
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/contact/" title=""> contact </a>
+    </text>
+    
+    <text class="page-header-link">
+        <a href="https://cc4dev.github.io/config/" title=""> config </a>
+    </text>
+    
+</div></div>
+
+                <div class="page-body">
+    <h1 id="welcome">Welcome</h1>
+<p> <text id="welcomeTextBody" style="color:var(--highlight);"> </text> 👋 </p>
+
+<div align="center">
+    <img class="indexZ-img" src="/assets/cat-chilling.webp">
+</div>
+
 <h1> My recommendation of today's music: </h1>
 
-<div id="indexYoutube-content">
+<div id="indexYoutube-content"> </div>
 
-</div>
-
-<script src="/js/indexYoutube.js"> </script>
 <h1> Latest commit: </h1>
 
-<div id="indexZ-content">
-    
-</div>
+<div id="indexZ-content"> </div>
 
-<br/>
+</br>
 
-<script src="/js/indexZ.js"></script>
-<p><em>Maybe those buttons below are clickable&hellip;</em></p>
-
-
-            </section>
-
-            <footer class="page-footer">
+<p> <i> Maybe those buttons below are clickable... </i> </p>
 
 <div class="page-footer-content">
     <img src="/assets/miku-approved.gif">
@@ -116,10 +115,33 @@
     <img id="page-footer-content-ncs-youtube" src="/assets/ncs.webp">
 </div>
 
-<script type="module" src="/js/footer.js"> </script>
+<style>
+    .indexZ-img
+    {
+        max-width: 90%;
+    }
 
-</footer>
-        </div>
+    .page-footer-content
+    {
+        display: flex;
+        flex-direction: row;
+        flex-flow: row wrap;
+        gap: 10px;
+    }
+
+    .page-footer-content img
+    {
+        width: 88px;
+        height: 31px;
+    }
+</style>
+
+<script src="/js/indexZ.js"></script>
+
+
+                </div>
+            </div>
+        </main>
 
         <script src="/js/index.js"> </script>
     </body>

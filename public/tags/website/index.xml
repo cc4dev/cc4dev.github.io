@@ -6,8 +6,15 @@
     <description>Recent content in Website on cc4dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cc4dev.github.io/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I created the Sylvie theme</title>
+      <link>https://cc4dev.github.io/note/sylvie-creation/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://cc4dev.github.io/note/sylvie-creation/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is a note about the creation of the Sylvie theme.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;the-reason&#34;&gt;The reason&lt;/h2&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://risotto.joeroe.io/&#34;&gt;risotto&lt;/a&gt; theme with custom modifications for over a year now and I love it.&lt;/p&gt;&#xA;&lt;p&gt;But it has a major flaw: Its width. The width was only &lt;code&gt;50rem&lt;/code&gt; and it increases the height of the page, which is not good for reading. You will have to scroll a lot to read a long post.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Versions</title>
       <link>https://cc4dev.github.io/lab/website-older-versions/</link>

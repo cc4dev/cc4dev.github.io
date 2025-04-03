@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="{{- site.Language.Lang -}}">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {{ with .Site.Params.Theme}}
+        <meta name="theme-color" content="{{ .ThemeColor }}">
+        {{ end }}
+
+        {{ with .Site.Params.About }}
+        <meta name="title" content="{{ .Title }}">
+        <meta name="author" content="{{ .Author }}">
+        <meta name="description" content="{{ .Description }}">
+
+        <meta itemprop="name" content="{{ .Title }}">
+        <meta itemprop="description" content="{{ .Description }}">
+        <meta itemprop="image" content="{{ .ImageURL | relURL }}">
+
+        <meta name="twitter:title" content="{{ .Title }}">
+        <meta name="twitter:creator" content="{{ .Author }}">
+        <meta name="twitter:description" content="{{ .Description }}">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="{{ .ImageURL | absURL }}">
+        <meta name="twitter:url" content="{{ .BaseURL }}">
+
+        <meta property="og:title" content="{{ .Title }}">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="{{ .Description }}">
+        <meta property="og:image" content="{{ .ImageURL | absURL }}">
+        <meta property="og:url" content="{{ .BaseURL }}">
+        {{ end }}
+
+        {{ if .Site.Params.Noindex }}
+        <meta name="robots" content="noindex">
+        <meta name="robots" content="nofollow">
+        {{ end }}
+
+        <title> 404 </title>
+
+        <link rel="canonical" href="https://cc4dev.github.io">
+
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon/favicon-16px.png" | absURL }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon/favicon-32px.png" | absURL }}">
+        <link rel="apple-touch-icon" sizes="192x192" href="{{ "/favicon/favicon-192px.png" | absURL }}">
+
+        <link rel="stylesheet" href="{{ "css/404.css" | absURL }}">
+    </head>
+
+    <body>
+        <h1> PAGE NOT FOUND! </h1>
+
+        <img src="/assets/404NotFound.webp">
+
+        <div>
+            <p> You may have reached this page by a mistake. </p>
+            <p> Click <a href="/">here</a> to return to the homepage. </p>
+        </div>
+
+        <script src="/js/404.js"> </script>
+    </body>
+</html>

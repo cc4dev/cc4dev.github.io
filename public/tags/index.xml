@@ -6,13 +6,13 @@
     <description>Recent content in Tags on cc4dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://cc4dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Github</title>
-      <link>https://cc4dev.github.io/tags/github/</link>
-      <pubDate>Sun, 22 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://cc4dev.github.io/tags/github/</guid>
+      <title>Website</title>
+      <link>https://cc4dev.github.io/tags/website/</link>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://cc4dev.github.io/tags/website/</guid>
       <description></description>
     </item>
     <item>
@@ -20,13 +20,6 @@
       <link>https://cc4dev.github.io/tags/life/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://cc4dev.github.io/tags/life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Website</title>
-      <link>https://cc4dev.github.io/tags/website/</link>
-      <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cc4dev.github.io/tags/website/</guid>
       <description></description>
     </item>
   </channel>

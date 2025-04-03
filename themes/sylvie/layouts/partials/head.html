@@ -1,0 +1,45 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{{ with .Site.Params.Theme}}
+<meta name="theme-color" content="{{ .ThemeColor }}">
+{{ end }}
+
+{{ with .Site.Params.About }}
+<meta name="title" content="{{ .Title }}">
+<meta name="author" content="{{ .Author }}">
+<meta name="description" content="{{ .Description }}">
+
+<meta itemprop="name" content="{{ .Title }}">
+<meta itemprop="description" content="{{ .Description }}">
+<meta itemprop="image" content="{{ .ImageURL | relURL }}">
+
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:creator" content="{{ .Author }}">
+<meta name="twitter:description" content="{{ .Description }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ .ImageURL | absURL }}">
+<meta name="twitter:url" content="{{ .BaseURL }}">
+
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:type" content="website">
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:image" content="{{ .ImageURL | absURL }}">
+<meta property="og:url" content="{{ .BaseURL }}">
+{{ end }}
+
+{{ if .Site.Params.Noindex }}
+<meta name="robots" content="noindex">
+<meta name="robots" content="nofollow">
+{{ end }}
+
+<title> {{ if not .IsHome }}{{ .Title | title }} &ndash; {{ end }}{{ .Site.Title }} </title>
+
+<link rel="canonical" href="https://cc4dev.github.io">
+
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon/favicon-16px.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon/favicon-32px.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="192x192" href="{{ "/favicon/favicon-192px.png" | absURL }}">
+
+<link rel="stylesheet" href="{{ printf "css/palettes/%s.css" (.Site.Params.Theme.Palette | default "tokyo-night-dark") | absURL }}">
+<link rel="stylesheet" href="{{ "css/sylvie.css" | absURL }}">

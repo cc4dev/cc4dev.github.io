@@ -1,0 +1,18 @@
+{{ define "main" }}
+    <header class="content-header">
+        <h1> {{ .Title | markdownify }} </h1>
+        {{ .Content }}
+    </header>
+
+    {{ range .Pages }}
+    <article class="post">
+        <header class="post-header">
+            <h1>
+                <a href="{{ .Permalink }}"> {{ .Title | markdownify }} </a>
+            </h1>
+            <p> <text class="base09"> Published on: </text> {{ .Date.Format "2 January 2006" }}. </p>
+            <p> <text class="base0E"> </text> {{ .Description }} </p>
+        </header>
+    </article>
+    {{ end }}
+{{ end }}
