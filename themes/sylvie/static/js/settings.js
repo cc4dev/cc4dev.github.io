@@ -55,6 +55,6 @@ lofiMode.addEventListener("click", () => {
     var element = document.getElementsByClassName("page");
     for (var i = 0;i < element.length;++i) element[i].style.display = "none";
     document.body.style.overflow = "hidden";
-    const music = new Audio("/assets/i-need-a-girl-by-lee.mp3").play();
+    const music = new Audio("/assets/DG812-Wuzhen.mp3").play();
     music.loop = true;
 });

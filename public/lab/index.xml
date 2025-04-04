@@ -31,10 +31,10 @@
     </item>
     <item>
       <title>Versions</title>
-      <link>https://cc4dev.github.io/lab/website-older-versions/</link>
+      <link>https://cc4dev.github.io/lab/versions/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cc4dev.github.io/lab/website-older-versions/</guid>
-      <description>&lt;h2 id=&#34;10&#34;&gt;1.0:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Release date: June 2023.&lt;/li&gt;&#xA;&lt;li&gt;This is the first version of my website when I started to learn front-end development. I glad it worked when I saw it online.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/1.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;20--30&#34;&gt;2.0 &amp;amp; 3.0:&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Release date: July 2023.&lt;/li&gt;&#xA;&lt;li&gt;As a beginner, I wanted to practice more with more complexity, so I made &lt;strong&gt;2.0&lt;/strong&gt; and &lt;strong&gt;3.0&lt;/strong&gt;. I struggled while trying to make it responsive but it worked somehow.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/2.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;40-current-version&#34;&gt;4.0 (current version):&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Release date: August 2023.&lt;/li&gt;&#xA;&lt;li&gt;I saw my friend using this &lt;a href=&#34;https://themes.gohugo.io/themes/risotto/&#34;&gt;rissoto theme&lt;/a&gt; and I loved how it looks so I decided to give it a try and I didn&amp;rsquo;t regret it (I modified the theme to as it looks now and named it &lt;strong&gt;Chloe&lt;/strong&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>https://cc4dev.github.io/lab/versions/</guid>
+      <description>&lt;h2 id=&#34;10&#34;&gt;1.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: June 2023.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This is the first version of my website when I started to learn front-end development. I glad it worked when I saw it online.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/1.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;20--30&#34;&gt;2.0 &amp;amp; 3.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: July 2023.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;As a beginner, I wanted to practice more with more complexity, so I made &lt;strong&gt;2.0&lt;/strong&gt; and &lt;strong&gt;3.0&lt;/strong&gt;. I struggled while trying to make it responsive but it worked somehow.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/2.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;40&#34;&gt;4.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: August 2023.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

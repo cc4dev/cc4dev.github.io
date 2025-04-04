@@ -15,12 +15,12 @@ title = "Config"
 | Name | Source |
 |----------------------------|--------|
 | GitHub's avatar            | [情理叶](https://www.pixiv.net/en/users/62703299) (pixiv). |
-| Background                 | [情理叶](https://www.pixiv.net/en/users/62703299) (pixiv). |
+| Background                 | [Louis](https://www.pexels.com/@suissounet/) (pexels). |
 | Animated background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
 | 404NotFound.png            | [vtuberlogos.alfon.dev](https://vtuberlogos.alfon.dev). |
 | Programming language icons | [xandemon.github.io/developer-icons](https://xandemon.github.io/developer-icons). |
 | X.svg                      | [tabler.io/icons](https://tabler.io/icons/). |
-| Lofi Type Beat             | [I Need a Girl by Lee](https://www.youtube.com/watch?v=xVf4Zk8CBj0) (Youtube). |
+| Idle music                 | [Wuzhen by DG812](https://www.youtube.com/watch?v=3pbFmR-zKYg) (Youtube). |
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/). |
 | Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329). | 
 | [NCS](/assets/ncs.gif) 88x31 GIF | I made it :D |
