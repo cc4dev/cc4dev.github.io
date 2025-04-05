@@ -9,6 +9,15 @@ body
     line-height: 1.5rem;
 }
 
+noscript
+{
+    width: 100%;
+	position: fixed;
+	top: 0;
+    left: 0;
+	z-index: 9;
+}
+
 main
 {
     width: 100%;
@@ -19,9 +28,12 @@ main
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    background-image: url("/assets/background.webp");
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+
+    /* Responsive when no JS */
+    padding-top: 5vh;
 }
 
 .page
@@ -33,9 +45,8 @@ main
     display: flex;
     flex-direction: column;
     border-style: solid;
-    border-radius: 24px;
     border-width: 2px;
-    border-color: var(--text);
+    border-color: var(--link);
     background-color: var(--body);
 }
 

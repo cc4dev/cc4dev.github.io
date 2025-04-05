@@ -1,5 +1,5 @@
 const backgroundImageText = document.getElementById("background-image-text");
-const lofiMode = document.getElementById("lofi-mode");
+const idleMode = document.getElementById("idle-mode");
 const themeRandomButton = document.getElementById("random-theme-button");
 const darkThemeList  = ["mocha", "base16-dark", "gruvbox-dark", "windows-95", "tokyo-night-dark"];
 const lightThemeList = ["base16-light", "gruvbox-light", "windows-95-light", "tokyo-night-light"];
@@ -51,10 +51,11 @@ backgroundImageText.addEventListener("click", () => {
     backgroundImageText.textContent = localStorage.getItem("isAnimatedBackground");
 });
 
-lofiMode.addEventListener("click", () => {
+idleMode.addEventListener("click", () => {
     var element = document.getElementsByClassName("page");
     for (var i = 0;i < element.length;++i) element[i].style.display = "none";
     document.body.style.overflow = "hidden";
+    document.querySelector("main").style.backgroundImage  = `url('${window.location.origin}/assets/background.webp`;
     const music = new Audio("/assets/DG812-Wuzhen.mp3").play();
     music.loop = true;
 });

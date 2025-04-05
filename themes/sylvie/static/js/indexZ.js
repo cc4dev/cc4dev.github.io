@@ -1,27 +1,65 @@
-document.getElementById("page-footer-content-secret").style.cursor = "pointer";
-document.getElementById("page-footer-content-ncs-youtube").style.cursor = "pointer";
-
-document.getElementById("page-footer-content-secret").addEventListener("click", () => {
+// 88x31 buttons
+document.getElementById("indexZ-button-secret").addEventListener("click", () => {
     window.open("/assets/secret.webp", '_blank').focus();
 });
-
-document.getElementById("page-footer-content-ncs-youtube").addEventListener("click", () => {
+document.getElementById("indexZ-button-ncs").addEventListener("click", () => {
     window.open("https://www.youtube.com/playlist?list=PLRBp0Fe2Gpgn8Y9qI-p0aTxVtw8onBSFj", '_blank').focus();
 });
 
+// Welcome Text
+const indexZ_welcomeList = [
+    "Xin chào",
+    "Hello",
+    "Hola",
+    "Bonjour",
+    "Hallo",
+    "Ciao",
+    "Olá",
+    "Привет",
+    "こんにちは",
+    "안녕하세요",
+    "你好",
+    "مرحبا",
+    "नमस्ते",
+    "สวัสดี",
+    "Salam",
+    "Merhaba",
+    "Sawubona",
+    "Habari",
+    "Shalom",
+    "Hej"
+];
+document.getElementById("indexZ-welcome-text").innerText = indexZ_welcomeList[0] + "! 👋";
+var indexZ_welcomeList_pos = 0, indexZ_welcomeList_i = 1;
+
+function indexZ_welcomeTextAnimation()
+{
+    setInterval(function() {
+        indexZ_welcomeList_pos = indexZ_welcomeList_i % 20;
+        //console.log(indexZ_welcomeList_pos, indexZ_welcomeList[indexZ_welcomeList_pos]);
+        document.getElementById("indexZ-welcome-text").innerText = `${indexZ_welcomeList[indexZ_welcomeList_pos]}\! 👋`;
+        indexZ_welcomeList_i++;
+    }, 1500)
+}
+indexZ_welcomeTextAnimation();
+
+// Commit information
 const AUTHOR = "cc4dev";
 const REPOSITORY = "cc4dev.github.io"
-const indexZ = document.getElementById("indexZ-content");
+const indexZ_commit = document.getElementById("indexZ-commit");
 
 if (!localStorage.getItem("latestCommitDate"))
 {
     localStorage.setItem("latestCommitDate", "2023-06-01T01:01:01Z");
 }
-
 if (!localStorage.getItem("latestCommitMessage"))
 {
     localStorage.setItem("latestCommitMessage", "Minor fixes");
 }
+
+const commitMessage = localStorage.getItem("latestCommitMessage");
+const commitSince = localStorage.getItem("latestCommitDate");
+const commitDate = convertISO(commitSince);
 
 function convertISO(DATE)
 {
@@ -35,14 +73,10 @@ function convertISO(DATE)
     return `${day} ${month} ${year}`;
 }
 
-const commitMessage = localStorage.getItem("latestCommitMessage");
-const commitSince = localStorage.getItem("latestCommitDate");
-const commitDate = convertISO(commitSince);
-
 async function getCommit()
 {
     const URL = `https://api.github.com/repos/${AUTHOR}/${REPOSITORY}/commits?per_page=1`;
-    console.log(URL);
+
     try
     {
         const response = await fetch(URL);
@@ -62,7 +96,6 @@ async function getCommit()
             console.log(`Date: ${latestCommit.commit.author.date}`);
             console.log(`URL: ${latestCommit.html_url}`);*/
 
-
             localStorage.setItem("latestCommitDate", latestCommit.commit.author.date);
             localStorage.setItem("latestCommitMessage", latestCommit.commit.message);
 
@@ -77,7 +110,7 @@ async function getCommit()
 }
 
 getCommit();
-indexZ.innerHTML +=
+indexZ_commit.innerHTML +=
 `<text>
     <span style="color: var(--off-fg);">Date:</span> ${commitDate}.
 </text>
@@ -98,7 +131,7 @@ const youtubeLinks = [
     ["Xomu - Lanterns", "https://www.youtube.com/watch?v=L17njonbcT0"],
     ["Spring Butterfly by Ho Quang Hieu | Official MV", "https://www.youtube.com/watch?v=-41E5B85rTI"]
 ];
-const indexYoutube = document.getElementById("indexYoutube-content");
+const indexZ_youtube = document.getElementById("indexZ-youtube");
 
 const date = new Date();
 const linkPos = date.getDay() % 10;
@@ -114,20 +147,8 @@ for (var i = chosenLink.length - 1;i != 0;i -= 1)
 
 videoId = videoId.split("").reverse().join("");
 
-console.log(videoId);
+//console.log(videoId);
 
-function fetchYouTubeData()
-{
-    const title = chosenTitle;
-    const thumbnail = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
-
-    console.log("Link: ", chosenLink);
-    console.log("Title: ", title);
-    console.log("Thumbnail URL: ", thumbnail);
-
-    indexYoutube.innerHTML =
-    `<p> -> <a href="${chosenLink}">${chosenTitle}</a></p>
-    `;
-}
-
-fetchYouTubeData();
+indexZ_youtube.innerHTML =
+`<p> -> <a href="${chosenLink}">${chosenTitle}</a></p>
+`;

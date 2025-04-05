@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    <noscript>
+        ⚠️ You have disabled <b> JavaScript </b> on this site! Some functions like: <i>theme changer</i>, <i>background loader</i>, etc... relies on it will not working.
+    </noscript>
+
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -49,12 +53,12 @@
             <div class="page">
                 <div class="page-header"><div class="page-header-top">
     <text class="page-header-favicon">
-        <img src="/favicon/favicon-32px.png">
+        <img src="/favicon/favicon-192px.png">
     </text>
     
     <text class="page-header-title">cc4dev</text>
     
-    <div class="page-header-x">
+    <div class="page-header-x" id="page-header-x">
         <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg>
     </div>
 </div>
@@ -96,27 +100,28 @@
     <div class="content-body">
         <blockquote>
 <p>Settings &amp; Credits.</p></blockquote>
-<blockquote>
-<p>🧾 This work is licensed under the <a href="https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE">MIT</a> License, the same as the license of the <a href="https://github.com/joeroe/risotto/blob/main/LICENSE">original template repository</a>.</p></blockquote>
-<blockquote>
-<p>To see how contents are rendered, check out the <a href="/example">example</a> page.</p></blockquote>
-<h2> Theme: </h2>
+<h2 id="-notice">🔔 Notice</h2>
+<ol>
+<li>This work is licensed under the <a href="https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE">MIT License</a>, the same as the license of the <a href="https://github.com/joeroe/risotto/blob/main/LICENSE">original template repository</a>.</li>
+<li>To see how contents are rendered, check out the <a href="/example">example</a> page.</li>
+<li>Based on what OS you are using, the <mark>emoji</mark> may be rendered differently.</li>
+<li>Older versions are available at <a href="/lab/versions">./lab/versions</a>.</li>
+</ol>
+<h2> 🎨 Theme </h2>
 <ul>
     <li> Dark Themes: <text id="dark-theme-list"> </text>. </li>
     <li> Light Themes: <text id="light-theme-list"> </text>. </li>
     <li> Can't choose a theme? Let's <a id="random-theme-button" href="">randomize</a> it! </li>
 </ul>
 
-<h2> Settings </h2>
+<h2> ⚙️ Settings </h2>
 <ul>
-    <li> Animated background: <a id="background-image-text" href=""> </a> (currently broken, patches will be made soon). </li>
-    <li> <a id="lofi-mode" href="#">Idle</a> (with some music). </li>
+    <li> Animated background: <a id="background-image-text" href=""> </a>. </li>
+    <li> <a id="idle-mode" href="#">Idle</a> (with some music). </li>
 </ul>
 
 <script type="module" src="/js/settings.js"> </script>
-<h2 id="assets">Assets</h2>
-<blockquote>
-<p>Please note that I converted assets to webp format &amp; compressed for the best performance possible, but you can find the original assets in the <mark>assets</mark> folder.</p>
+<h2 id="-assets">🖼️ Assets</h2>
 <table>
   <thead>
       <tr>
@@ -126,12 +131,16 @@
   </thead>
   <tbody>
       <tr>
-          <td>GitHub&rsquo;s avatar</td>
+          <td>Font</td>
+          <td><a href="https://github.com/microsoft/cascadia-code">Cascadia Code Mono</a> (by Microsoft).</td>
+      </tr>
+      <tr>
+          <td>Favicon</td>
           <td><a href="https://www.pixiv.net/en/users/62703299">情理叶</a> (pixiv).</td>
       </tr>
       <tr>
           <td>Background</td>
-          <td><a href="https://www.pexels.com/@suissounet/">Louis</a> (pexels).</td>
+          <td><a href="https://unsplash.com/@evgenylazarenko">Evgeny Lazarenko</a> (unsplash).</td>
       </tr>
       <tr>
           <td>Animated background</td>
@@ -139,15 +148,15 @@
       </tr>
       <tr>
           <td>404NotFound.png</td>
-          <td><a href="https://vtuberlogos.alfon.dev">vtuberlogos.alfon.dev</a>.</td>
+          <td><a href="https://vtuberlogos.alfon.dev">vtuberlogos.alfon.dev</a></td>
       </tr>
       <tr>
           <td>Programming language icons</td>
-          <td><a href="https://xandemon.github.io/developer-icons">xandemon.github.io/developer-icons</a>.</td>
+          <td><a href="https://xandemon.github.io/developer-icons">xandemon.github.io/developer-icons</a></td>
       </tr>
       <tr>
           <td>X.svg</td>
-          <td><a href="https://tabler.io/icons/">tabler.io/icons</a>.</td>
+          <td><a href="https://tabler.io/icons/">tabler.io/icons</a></td>
       </tr>
       <tr>
           <td>Idle music</td>
@@ -155,35 +164,42 @@
       </tr>
       <tr>
           <td>Miku 88x31 GIF</td>
-          <td><a href="https://cyber.dabamos.de/88x31/">cyber.dabamos.de</a>.</td>
+          <td><a href="https://cyber.dabamos.de/88x31/">cyber.dabamos.de</a></td>
       </tr>
       <tr>
           <td>Senko 88x31 GIF</td>
-          <td><a href="https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329">tenor</a>.</td>
+          <td><a href="https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329">tenor</a></td>
       </tr>
       <tr>
           <td><a href="/assets/ncs.gif">NCS</a> 88x31 GIF</td>
           <td>I made it :D</td>
       </tr>
   </tbody>
-</table></blockquote>
-<ul>
-<li>I couldn&rsquo;t find the source of <strong><a href="/assets/cat-chilling.gif">cat-chilling.gif</a></strong> &amp; <strong><a href="/assets/secret.png">secret.png</a></strong>, sorry&hellip;</li>
-</ul>
-<h2 id="page">Page</h2>
+</table>
+<blockquote>
+<p>Please note that I converted assets to <a href="https://developers.google.com/speed/webp">webp format</a> &amp; compressed for the best performance possible, but you can find the original assets in the <a href="https://github.com/cc4dev/cc4dev.github.io/tree/main/public/assets">assets folder</a>.</p></blockquote>
+<blockquote>
+<p>I couldn&rsquo;t find the source of <strong><a href="/assets/cat-chilling.gif">cat-chilling.gif</a></strong> &amp; <strong><a href="/assets/secret.png">secret.png</a></strong>, sorry&hellip;</p></blockquote>
+<h2 id="-infrastructure">🛠️ Infrastructure</h2>
 <ul>
 <li>Hosting on <a href="https://pages.github.com">GitHub</a>.</li>
 <li>Domain registered at: <a href="https://is-a.dev">is-a.dev</a> (free).</li>
 <li>Template: <a href="https://github.com/joeroe/risotto">risotto</a> (personally modified by <a href="https://github.com/cc4dev">me</a>).</li>
 <li>Static site generator: <a href="https://gohugo.io">hugo</a>.</li>
-<li>Font: <a href="https://github.com/microsoft/cascadia-code">Cascadia Code Mono</a>.</li>
 <li>Source code available at <a href="https://github.com/cc4dev/cc4dev.github.io">cc4dev/cc4dev.github.io</a>.</li>
 </ul>
+<blockquote>
+<p>Made by <em><strong>cc4dev</strong></em> with ❤️.</p></blockquote>
 
     </div>
     <footer class="content-footer"> </footer>
 
                 </div>
+            </div>
+
+            <div id="page-hidden">
+                <img id="page-hidden-img" src="/favicon/favicon-192px.png">
+                <text id="page-hidden-text">cc4dev.exe</text>
             </div>
         </main>
 

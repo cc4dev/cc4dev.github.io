@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 
 <html lang="{{- site.Language.Lang -}}">
+    <noscript>
+        ⚠️ You have disabled <b> JavaScript </b> on this site! Some functions like: <i>theme changer</i>, <i>background loader</i>, etc... relies on it will not working.
+    </noscript>
+
     <head>
         {{- partial "head.html" . -}}
     </head>
@@ -15,6 +19,11 @@
                 <div class="page-body">
                     {{- block "main" . }}{{- end }}
                 </div>
+            </div>
+
+            <div id="page-hidden">
+                <img id="page-hidden-img" src="/favicon/favicon-192px.png">
+                <text id="page-hidden-text">cc4dev.exe</text>
             </div>
         </main>
 

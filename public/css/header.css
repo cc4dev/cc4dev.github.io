@@ -30,6 +30,11 @@
     pointer-events: none;
 }
 
+.page-header-favicon img
+{
+    width: 32px;
+}
+
 .page-header-title
 {
     position: relative;
