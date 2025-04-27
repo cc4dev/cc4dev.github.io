@@ -16,7 +16,7 @@ title = "Config"
 | Name | Source |
 |----------------------------|--------|
 | Font                       | [Cascadia Code Mono](https://github.com/microsoft/cascadia-code) (by Microsoft). |
-| Favicon                    | [情理叶](https://www.pixiv.net/en/users/62703299) (pixiv). |
+| Favicon                    | [シャガム](https://www.pixiv.net/en/artworks/112791363) (pixiv). |
 | Background                 | [Evgeny Lazarenko](https://unsplash.com/@evgenylazarenko) (unsplash). |
 | Animated background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
 | 404NotFound.png            | [vtuberlogos.alfon.dev](https://vtuberlogos.alfon.dev) |
@@ -26,9 +26,9 @@ title = "Config"
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/) |
 | Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329) | 
 | [NCS](/assets/ncs.gif) 88x31 GIF | I made it :D |
-> Please note that I converted assets to [webp format](https://developers.google.com/speed/webp) & compressed for the best performance possible, but you can find the original assets in the [assets folder](https://github.com/cc4dev/cc4dev.github.io/tree/main/public/assets).
+> Please note that I converted assets to [webp](https://developers.google.com/speed/webp) format & compressed for the best performance possible, but you can find the original assets in the [assets](https://github.com/cc4dev/cc4dev.github.io/tree/main/public/assets) folder.
 
-> I couldn't find the source of **[cat-chilling.gif](/assets/cat-chilling.gif)** & **[secret.png](/assets/secret.png)**, sorry...
+> I couldn't find the sources of other assets, sorry...
 
 ## 🛠️ Infrastructure
 + Hosting on [GitHub](https://pages.github.com).

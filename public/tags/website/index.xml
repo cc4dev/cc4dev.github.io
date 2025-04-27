@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Website on cc4dev</title>
-    <link>https://cc4dev.github.io/tags/website/</link>
+    <link>http://localhost:1313/tags/website/</link>
     <description>Recent content in Website on cc4dev</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://cc4dev.github.io/tags/website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Why I created the Sylvie theme</title>
-      <link>https://cc4dev.github.io/note/sylvie-creation/</link>
+      <title>Why I created the Sylvie theme?</title>
+      <link>http://localhost:1313/note/sylvie-creation/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://cc4dev.github.io/note/sylvie-creation/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is a note about the creation of the Sylvie theme.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;the-reason&#34;&gt;The reason&lt;/h2&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://risotto.joeroe.io/&#34;&gt;risotto&lt;/a&gt; theme with custom modifications for over a year now and I love it.&lt;/p&gt;&#xA;&lt;p&gt;But it has a major flaw: Its width. The width was only &lt;code&gt;50rem&lt;/code&gt; and it increases the height of the page, which is not good for reading. You will have to scroll a lot to read a long post.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/note/sylvie-creation/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is a note about the creation of the Sylvie theme.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;the-reason&#34;&gt;The reason&lt;/h2&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://risotto.joeroe.io/&#34;&gt;risotto&lt;/a&gt; theme with custom modifications for over a year now and I love it.&lt;/p&gt;&#xA;&lt;p&gt;But it has a major flaw: Its width. The width was only &lt;mark&gt;50rem&lt;/mark&gt; and it increases the height of the page, which is not good for reading. You will have to scroll a lot to read a long post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Versions</title>
-      <link>https://cc4dev.github.io/lab/versions/</link>
+      <link>http://localhost:1313/lab/versions/</link>
       <pubDate>Sat, 21 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://cc4dev.github.io/lab/versions/</guid>
+      <guid>http://localhost:1313/lab/versions/</guid>
       <description>&lt;h2 id=&#34;10&#34;&gt;1.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: June 2023.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;This is the first version of my website when I started to learn front-end development. I glad it worked when I saw it online.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/1.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;20--30&#34;&gt;2.0 &amp;amp; 3.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: July 2023.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;As a beginner, I wanted to practice more with more complexity, so I made &lt;strong&gt;2.0&lt;/strong&gt; and &lt;strong&gt;3.0&lt;/strong&gt;. I struggled while trying to make it responsive but it worked somehow.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../../.old/2.0/index.html&#34;&gt;Go to page&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;40&#34;&gt;4.0:&lt;/h2&gt;&#xA;&lt;p&gt;Release date: August 2023.&lt;/p&gt;</description>
     </item>
   </channel>
