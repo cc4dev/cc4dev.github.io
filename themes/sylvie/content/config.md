@@ -5,9 +5,13 @@ title = "Config"
 > Settings & Credits.
 
 ## 🔔 Notice
-1. This work is licensed under the [MIT License](https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE), the same as the license of the [original template repository](https://github.com/joeroe/risotto/blob/main/LICENSE).
+1. This website project is licensed under the [GNU General Public License v3.0 (GPLv3)](https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE).
+
+Some CSS stylesheets and HTML layout files have been taken & modified from **risotto**, which is licensed under the [MIT License](https://github.com/joeroe/risotto/blob/main/LICENSE). <br/>
+The original MIT License and copyright notices are included in the relevant files.
+
 2. To see how contents are rendered, check out the [example](/example) page.
-3. Based on what OS you are using, the <mark>emoji</mark> may be rendered differently.
+3. Based on what OS you are using, the **emoji** may be rendered differently.
 4. Older versions are available at [./lab/versions](/lab/versions).
 
 {{< settings >}}
@@ -15,10 +19,10 @@ title = "Config"
 ## 🖼️ Assets
 | Name | Source |
 |----------------------------|--------|
-| Font                       | [Cascadia Code Mono](https://github.com/microsoft/cascadia-code) (by Microsoft). |
+| Font                       | [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro). |
 | Favicon                    | [シャガム](https://www.pixiv.net/en/artworks/112791363) (pixiv). |
-| Background                 | [Evgeny Lazarenko](https://unsplash.com/@evgenylazarenko) (unsplash). |
-| Animated background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
+| Static Background          | [Evgeny Lazarenko](https://unsplash.com/@evgenylazarenko) (unsplash). |
+| Animated Background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
 | 404NotFound.png            | [vtuberlogos.alfon.dev](https://vtuberlogos.alfon.dev) |
 | Programming language icons | [xandemon.github.io/developer-icons](https://xandemon.github.io/developer-icons) |
 | X.svg                      | [tabler.io/icons](https://tabler.io/icons/) |
@@ -31,10 +35,10 @@ title = "Config"
 > I couldn't find the sources of other assets, sorry...
 
 ## 🛠️ Infrastructure
++ This page is [open source](https://github.com/cc4dev/cc4dev.github.io).
 + Hosting on [GitHub](https://pages.github.com).
 + Domain registered at: [is-a.dev](https://is-a.dev) (free).
 + Template: [risotto](https://github.com/joeroe/risotto) (personally modified by [me](https://github.com/cc4dev)).
 + Static site generator: [hugo](https://gohugo.io).
-+ Source code available at [cc4dev/cc4dev.github.io](https://github.com/cc4dev/cc4dev.github.io).
 
 > Made by ***cc4dev*** with ❤️.

@@ -1,9 +1,3 @@
-@font-face
-{
-    font-family: "myFont";
-    src: url(/font/CascadiaMonoPL.woff2);
-}
-
 /* Headings */
 h1, 
 h2, 
@@ -53,13 +47,13 @@ h6:before
     color: var(--muted);
 }
 
-/* Paragraph */
+/* Paragraphs */
 p
 {
     margin: 0 0 1.5rem 0;
 }
 
-/* Link */
+/* Links */
 a:link, a:visited
 {
     color: var(--link);
@@ -70,59 +64,8 @@ a:hover, a:active, a.active
     color: var(--hover);
 }
 
-/* Code */
-pre,
-code, 
-kbd,
-samp
-{
-    background: var(--inner-bg) !important;
-    font-family: var(--font-monospace);
-    color: var(--off-text);
-}
-
-pre
-{
-    overflow-x: auto;
-    padding: 1.5rem;
-    margin: 0 0 1.5rem 0;
-}
-
-/* Blockquotes */
-blockquote
-{
-    position: relative;
-    margin: 0 0 1.5rem 1.5rem;
-}
-
-blockquote::before
-{
-    position: absolute;
-    left: -1.5rem;
-    content: ">";
-    color: var(--muted);
-}
-
-/* Other typographic elements */
-hr
-{
-    width: 100%;
-    height: 2px;
-    border-style: solid;
-    border-radius: 1px;
-    border-color: var(--muted);
-}
-
-/* Highlighting */
-::selection,
-mark
-{
-    background-color: var(--highlight);
-    color: var(--bg);
-}
-
 /* Lists */
-ul 
+ul
 {
     margin: 0 0 1.5rem 0;
     padding-left: 1.25rem;
@@ -144,13 +87,18 @@ ol ol
 
 ul li::marker
 {
-    content: "∗\00A0";
+    content: '∗\00A0';
     color: var(--muted);
 }
 
 ol li::marker
 {
     color: var(--muted);
+}
+
+li.nomarker
+{
+    display: block;
 }
 
 dt
@@ -175,8 +123,72 @@ dl
   margin: 0 0 1.5rem 0;
 }
 
+/* Blockquotes */
+blockquote
+{
+    position: relative;
+    margin: 0 0 1.5rem 1.5rem;
+}
+
+blockquote::before
+{
+    position: absolute;
+    left: -1.5rem;
+    content: ">";
+    color: var(--muted);
+}
+
+/* Code */
+pre,
+code, 
+kbd,
+samp
+{
+    background: var(--inner-bg) !important;
+    font-family: var(--font-monospace);
+    color: var(--off-fg);
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1.5rem;
+    margin: 0 0 1.5rem 0;
+}
+
+/* Other typographic elements */
+hr
+{
+    width: 100%;
+    height: 2px;
+    border-style: solid;
+    border-radius: 1px;
+    color: var(--muted);
+}
+
+/* Fix overflow when config markup.highlight.lineNos is true */
+/* See https://github.com/joeroe/risotto/issues/41 */
+.highlight div
+{
+	overflow-x: auto;
+}
+
+/* Emphasis */
+b,
+strong
+{
+    font-weight: 600;
+}
+
+/* Highlighting */
+::selection,
+mark
+{
+    background-color: var(--highlight);
+    color: var(--bg);
+}
+
 /* Prevent super/sub from affecting line height */
-sup, sub
+sup, sub 
 {
     vertical-align: baseline;
     position: relative;
@@ -203,8 +215,7 @@ th, td
     vertical-align: top;
 }
 
-th:first-child,
-td:first-child
+th:first-child, td:first-child
 {
     padding-left: 0;
 }
