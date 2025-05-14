@@ -21,7 +21,7 @@ The original MIT License and copyright notices are included in the relevant file
 |----------------------------|--------|
 | Base16 Schemes             | [tinted-theming/base16-schemes](https://github.com/tinted-theming/base16-schemes) (GitHub). |
 | Font                       | [Source Code Pro](https://fonts.google.com/specimen/Source+Code+Pro) |
-| Favicon                    | [シャガム](https://www.pixiv.net/en/artworks/112791363) (pixiv). |
+| Favicon                    | [Neg](https://www.pixiv.net/en/users/1566023) (pixiv). |
 | Static Background          | [Evgeny Lazarenko](https://unsplash.com/@evgenylazarenko) (unsplash). |
 | Animated Background        | [merrigo](https://merrigo.tumblr.com) (tumblr). |
 | 404NotFound.png            | [vtuberlogos.alfon.dev](https://vtuberlogos.alfon.dev) |
