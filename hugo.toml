@@ -1,6 +1,6 @@
-baseURL = "https://cc4dev.github.io"
+baseURL = "https://takai24.github.io"
 languageCode = "en-us"
-title = "cc4dev"
+title = "takai24"
 theme = "sylvie"
 enableEmoji = true
 enableInlineShortcodes = true

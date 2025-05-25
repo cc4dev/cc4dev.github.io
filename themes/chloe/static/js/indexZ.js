@@ -1,5 +1,5 @@
-const AUTHOR = "cc4dev";
-const REPOSITORY = "cc4dev.github.io"
+const AUTHOR = "takai24";
+const REPOSITORY = "takai24.github.io"
 const indexZ = document.getElementById("indexZ-content");
 
 if (!localStorage.getItem("latestCommitDate"))

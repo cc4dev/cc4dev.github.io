@@ -28,4 +28,4 @@ The biggest difference is its look. I made it looks like a program window, which
 ## Future plans
 I will continue update the theme and add more features to it.
 
-The old theme will still be available in the [themes folder](https://github.com/cc4dev/cc4dev.github.io/tree/main/themes), but I will not update it anymore.
+The old theme will still be available in the [themes folder](https://github.com/takai24/takai24.github.io/tree/main/themes), but I will not update it anymore.

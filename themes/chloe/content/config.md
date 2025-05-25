@@ -4,7 +4,7 @@ title = "Config"
 
 > Settings & Credits.
 
-> 🧾 This work is licensed under the [MIT](https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE) License, the same as the license of the [original template repository](https://github.com/joeroe/risotto/blob/main/LICENSE).
+> 🧾 This work is licensed under the [MIT](https://github.com/takai24/takai24.github.io/blob/main/LICENSE) License, the same as the license of the [original template repository](https://github.com/joeroe/risotto/blob/main/LICENSE).
 
 > To see how contents are rendered, check out the [example](/example) page.
 
@@ -28,7 +28,7 @@ title = "Config"
 ## Page
 + Hosting on [GitHub](https://pages.github.com).
 + Domain registered at: [is-a.dev](https://is-a.dev) (free).
-+ Template: [risotto](https://github.com/joeroe/risotto) (personally modified by [me](https://github.com/cc4dev)).
++ Template: [risotto](https://github.com/joeroe/risotto) (personally modified by [me](https://github.com/takai24)).
 + Static site generator: [hugo](https://gohugo.io).
 + Font: [Cascadia Code Mono](https://github.com/microsoft/cascadia-code).
-+ Source code available at [cc4dev/cc4dev.github.io](https://github.com/cc4dev/cc4dev.github.io).
++ Source code available at [takai24/takai24.github.io](https://github.com/takai24/takai24.github.io).

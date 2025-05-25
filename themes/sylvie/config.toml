@@ -3,11 +3,11 @@ defaultContentLanguage = "en"
 sectionPagesMenu = "main"
 
 [params.About]
-title = "cc4dev"
-author = "cc4dev"
+title = "takai24"
+author = "takai24"
 description = "hi."
-source = "https://github.com/cc4dev"
-baseURL = "https://cc4dev.github.io"
+source = "https://github.com/takai24"
+baseURL = "https://takai24.github.io"
 imageURL = "/assets/preview.png"
 
 [params.Theme]

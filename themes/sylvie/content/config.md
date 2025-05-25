@@ -5,7 +5,7 @@ title = "Config"
 > Settings & Credits.
 
 ## 🔔 Notice
-1. This website project is licensed under the [GNU General Public License v3.0 (GPLv3)](https://github.com/cc4dev/cc4dev.github.io/blob/main/LICENSE).
+1. This website project is licensed under the [GNU General Public License v3.0 (GPLv3)](https://github.com/takai24/takai24.github.io/blob/main/LICENSE).
 
 By **May 2025**, some CSS stylesheets and HTML layout files have been taken & modified from **risotto** are licensed under the [MIT License](https://github.com/joeroe/risotto/blob/main/LICENSE). <br/>
 The original MIT License and copyright notices are included in the relevant files.
@@ -31,11 +31,11 @@ The original MIT License and copyright notices are included in the relevant file
 | Miku 88x31 GIF             | [cyber.dabamos.de](https://cyber.dabamos.de/88x31/) |
 | Senko 88x31 GIF            | [tenor](https://tenor.com/view/senkosan-fox-anime-tea-cute-gif-16355329) | 
 | NCS 88x31 GIF              | I made it |
-> All the assets is stored [here](https://github.com/cc4dev/cc4dev.github.io/tree/main/public/assets).
+> All the assets is stored [here](https://github.com/takai24/takai24.github.io/tree/main/public/assets).
 
 ## 🛠️ Infrastructure
-+ This page is [open source](https://github.com/cc4dev/cc4dev.github.io).
++ This page is [open source](https://github.com/takai24/takai24.github.io).
 + Hosting on [GitHub](https://pages.github.com).
 + Domain registered at: [is-a.dev](https://is-a.dev).
 
-> Made by ***cc4dev*** with ❤️.
+> Made by ***takai24*** with ❤️.
