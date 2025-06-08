@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on takai24</title>
-    <link>http://localhost:1313/note/</link>
+    <link>https://takai24.github.io/note/</link>
     <description>Recent content in Note on takai24</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/note/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://takai24.github.io/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why I created the Sylvie theme?</title>
-      <link>http://localhost:1313/note/sylvie-creation/</link>
+      <link>https://takai24.github.io/note/sylvie-creation/</link>
       <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/note/sylvie-creation/</guid>
+      <guid>https://takai24.github.io/note/sylvie-creation/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;This is a note about the creation of the Sylvie theme.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;the-reason&#34;&gt;The reason&lt;/h2&gt;&#xA;&lt;p&gt;I have been using &lt;a href=&#34;http://risotto.joeroe.io/&#34;&gt;risotto&lt;/a&gt; theme with custom modifications for over a year now and I love it.&lt;/p&gt;&#xA;&lt;p&gt;But it has a major flaw: Its width. The width was only &lt;mark&gt;50rem&lt;/mark&gt; and it increases the height of the page, which is not good for reading. You will have to scroll a lot to read a long post.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A little update about me (Winter 2024)</title>
-      <link>http://localhost:1313/note/2024-winter-update/</link>
+      <link>https://takai24.github.io/note/2024-winter-update/</link>
       <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/note/2024-winter-update/</guid>
+      <guid>https://takai24.github.io/note/2024-winter-update/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Cause, why not?&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;3 months ago, I only dared to dream of getting into my dream university - &lt;strong&gt;HCMUS&lt;/strong&gt;. Now that I’m halfway through the first semester in HCMUS, I want to reflect on the experience so far.&lt;/p&gt;&#xA;&lt;h2 id=&#34;math-is-hard&#34;&gt;Math is hard&lt;/h2&gt;&#xA;&lt;p&gt;Math here is freaking hard. I was and still struggling to keep up with the pace of the lectures. I’m not sure if I can make it through the semester.&lt;/p&gt;</description>
     </item>
   </channel>
